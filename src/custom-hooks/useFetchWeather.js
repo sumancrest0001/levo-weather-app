@@ -32,7 +32,7 @@ function useFetchWeather() {
 
     const handleGetUserLocation = async () => {
         const result = await getUserLocationCoordinates();
-        if (result.status) {
+        if (!result.error) {
             fetchCurrentWeather({ ...result.coordinates });
             fetchThreeHourIntervalWeather({ ...result.coordinates });
         } else {

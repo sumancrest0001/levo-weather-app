@@ -17,8 +17,6 @@
 - Run <npm install> to have all the needed packages to run the app.
 - Run <npm run start> command to run locally
 
-
-
 ## Authors
 
 👤 **Suman Shrestha**
