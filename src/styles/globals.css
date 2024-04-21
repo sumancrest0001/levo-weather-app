@@ -37,7 +37,6 @@ body {
 
 .weather-card {
     width: calc(100% - 2rem);
-    height: 220px;
     max-width: 290px;
     background-image: url("/images/weather-card-image.jpg");
 }
